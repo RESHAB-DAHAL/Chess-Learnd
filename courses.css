@@ -1,0 +1,65 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fef6e4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ffb703;
+  text-align: center;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.intro {
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.video-card {
+  background-color: #ffffff;
+  border: 2px solid #ffb703;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.video-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #ffb703;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
